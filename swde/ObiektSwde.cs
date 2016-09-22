@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using egib.swde.Rekordy;
-using egib.swde.Komponenty;
+using swde.Rekordy;
+using swde.Komponenty;
 
-namespace egib.swde
+namespace swde
 {
     /// Klient nie może tworzyć bezpośrednio obiektów tej klasy.
     /// Klient uzyskuje dostęp do ich instacji tylko poprzez DokumentSwde.

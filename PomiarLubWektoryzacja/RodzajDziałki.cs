@@ -5,7 +5,7 @@ using System.Text;
 using Pragmatic.Kontrakty;
 using egib;
 
-namespace egib.PomiarLubWektoryzacja
+namespace PomiarLubWektoryzacja
 {
     public class RodzajDziałki
     {

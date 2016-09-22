@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 
-using egib.swde.Komponenty;
+using swde.Komponenty;
 
-namespace egib.swde.Rekordy
+namespace swde.Rekordy
 {
     /// <summary>
     /// Opis przestrzenny rekordu jest zbiorem obszarów z enklawami.

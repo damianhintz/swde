@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 
-using egib.swde.Sekcje;
-using egib.swde.Rekordy;
-using egib.swde.Komponenty;
+using swde.Sekcje;
+using swde.Rekordy;
+using swde.Komponenty;
 
-namespace egib.swde.Konstruktor
+namespace swde.Konstruktor
 {
     /// <summary>
     /// Konstruktor/budowniczy pliku SWDE.

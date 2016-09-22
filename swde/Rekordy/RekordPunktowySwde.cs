@@ -1,6 +1,6 @@
-﻿using egib.swde.Komponenty;
+﻿using swde.Komponenty;
 
-namespace egib.swde.Rekordy
+namespace swde.Rekordy
 {
     /// <summary>
     /// Opis przestrzenny rekordu jest punktem.

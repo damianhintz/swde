@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.IO;
-using egib.swde;
+using swde;
 
 namespace egib.Testy.swde
 {

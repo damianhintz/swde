@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
-using egib.swde.Komponenty;
+using swde.Komponenty;
 
-namespace egib.swde.Rekordy
+namespace swde.Rekordy
 {
     /// <summary>
     /// Rekord reprezentuje stan obiektu.

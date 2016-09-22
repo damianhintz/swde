@@ -1,4 +1,4 @@
-﻿egib.PomiarLubWektoryzacja v1.0 - Wykaz rodzaju działek (pomiar lub wektoryzacja)
+﻿PomiarLubWektoryzacja v1.0 - Wykaz rodzaju działek (pomiar lub wektoryzacja)
 Data publikacji: 19 stycznia 2015
 
 Nowe funkcje:

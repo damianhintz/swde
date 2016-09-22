@@ -1,6 +1,6 @@
-﻿using egib.swde.Komponenty;
+﻿using swde.Komponenty;
 
-namespace egib.swde.Sekcje
+namespace swde.Sekcje
 {
     /// <summary>
     /// Sekcja jest to ciąg kolejnych rekordów SWDE.

@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 
-using egib.swde.Rekordy;
-using egib.swde.Komponenty;
+using swde.Rekordy;
+using swde.Komponenty;
 
-namespace egib.swde.Geometria
+namespace swde.Geometria
 {
     internal class MultiLiniaSwde : GeometriaSwde
     {

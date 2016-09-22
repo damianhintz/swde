@@ -1,4 +1,4 @@
-﻿namespace egib.swde.Komponenty
+﻿namespace swde.Komponenty
 {
     /// <summary>
     /// Komponent rekordu obszarowego.

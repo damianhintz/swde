@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using egib.swde;
+using swde;
 
 namespace egib.Testy.swde
 {

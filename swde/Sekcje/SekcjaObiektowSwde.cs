@@ -2,9 +2,9 @@
 using System.Collections;
 using System.Collections.Generic;
 
-using egib.swde.Rekordy;
+using swde.Rekordy;
 
-namespace egib.swde.Sekcje
+namespace swde.Sekcje
 {
     /// <summary>
     /// Sekcja obiektów.

@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 
-using egib.swde.Sekcje;
+using swde.Sekcje;
 
-namespace egib.swde.Komponenty
+namespace swde.Komponenty
 {
     internal abstract class DokumentBase : KomponentBase
     {

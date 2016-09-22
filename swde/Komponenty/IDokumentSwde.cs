@@ -1,6 +1,6 @@
-﻿using egib.swde.Sekcje;
+﻿using swde.Sekcje;
 
-namespace egib.swde
+namespace swde
 {
     interface IDokumentSwde
     {

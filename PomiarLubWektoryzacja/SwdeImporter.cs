@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using Pragmatic.Kontrakty;
-using egib.swde;
+using swde;
 using egib;
 
-namespace egib.PomiarLubWektoryzacja
+namespace PomiarLubWektoryzacja
 {
     public class SwdeImporter
     {

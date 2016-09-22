@@ -1,6 +1,6 @@
-﻿using egib.swde.Rekordy;
+﻿using swde.Rekordy;
 
-namespace egib.swde
+namespace swde
 {
     /// <summary>
     /// Rekord ewidencyjny EGiB.

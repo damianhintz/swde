@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using egib.swde.Sekcje;
-using egib.swde.Rekordy;
+using swde.Sekcje;
+using swde.Rekordy;
 
-namespace egib.swde.Komponenty
+namespace swde.Komponenty
 {
     /// <summary>
     /// Abstrakcyjny komponent pliku SWDE.

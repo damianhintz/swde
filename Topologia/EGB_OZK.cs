@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace egib.TopologiaKonturuów
+namespace Topologia
 {
     public struct EGB_OZK
     {

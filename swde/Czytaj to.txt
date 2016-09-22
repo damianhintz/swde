@@ -37,7 +37,7 @@ Systemem jest DokumentSwde.
 
 Wczytanie i utworzenie ogólnego modelu swde, tylko typy bazowe (opisowe, punktowe, liniowe itd).
 Opierając się na tym modelu budujemy reprezentację schematu "G5". Kolejnym etapem jest
-mapowanie tego modelu na "Ogólny model geodezyjny". Zadaniem projektu Egib.Swde jest 
+mapowanie tego modelu na "Ogólny model geodezyjny". Zadaniem projektu swde jest 
 przygotowanie pierwszych trzech etapów w oparciu o projekt Egib.Model.
 Czwartym i ostatnim krokiem jest konwersja tego modelu na gml.
 

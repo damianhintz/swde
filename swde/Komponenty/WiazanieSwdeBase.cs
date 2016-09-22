@@ -1,6 +1,6 @@
-﻿using egib.swde.Sekcje;
+﻿using swde.Sekcje;
 
-namespace egib.swde.Komponenty
+namespace swde.Komponenty
 {
     /// <summary>
     /// Wiązanie jest zależnością łączącą klasy obiektów.

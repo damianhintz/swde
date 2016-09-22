@@ -1,4 +1,4 @@
-﻿namespace egib.swde.Rekordy
+﻿namespace swde.Rekordy
 {
     internal enum WersjaObiektu
     {

@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-using egib.swde.Rekordy;
+using swde.Rekordy;
 
-namespace egib.swde.Sekcje
+namespace swde.Sekcje
 {
     /// <summary>
     /// Kolekcja rekordów o tym samym identyfikatorze.

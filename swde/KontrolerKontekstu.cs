@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace egib.swde
+namespace swde
 {
     static class KontrolerKontekstu
     {

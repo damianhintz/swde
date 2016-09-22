@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.IO;
 
-namespace egib.TopologiaKonturuów
+namespace Topologia
 {
     public static class Logger
     {

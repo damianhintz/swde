@@ -1,4 +1,4 @@
-﻿namespace egib.swde.Rekordy
+﻿namespace swde.Rekordy
 {
     /// <summary>
     /// Rekord nie posiada odniesienia przestrzennego.

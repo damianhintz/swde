@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("Kontrola topologiczna konturów klasyfikacyjnych z SWDE (G5KKL)")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("OPGK Olsztyn")]
-[assembly: AssemblyProduct("egib.TopologiaKonturuów")]
+[assembly: AssemblyProduct("Topologia")]
 [assembly: AssemblyCopyright("Copyright © OPGK Olsztyn 2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

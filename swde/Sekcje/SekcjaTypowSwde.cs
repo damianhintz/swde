@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 
-using egib.swde.Rekordy;
+using swde.Rekordy;
 
-namespace egib.swde.Sekcje
+namespace swde.Sekcje
 {
     internal class SekcjaTypowSwde : SekcjaSwdeBase
     {

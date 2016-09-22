@@ -1,8 +1,8 @@
 ﻿using System;
 
-using egib.swde.Rekordy;
+using swde.Rekordy;
 
-namespace egib.swde
+namespace swde
 {
     /// <summary>
     /// Reprezentuje identyfikator obiektu SWDE.

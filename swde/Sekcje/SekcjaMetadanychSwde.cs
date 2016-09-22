@@ -1,9 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 
-using egib.swde.Komponenty;
+using swde.Komponenty;
 
-namespace egib.swde.Sekcje
+namespace swde.Sekcje
 {
     /// <summary>
     /// Kontekst danych – dane organizacyjne.

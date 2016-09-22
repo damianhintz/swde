@@ -7,8 +7,8 @@
     <ProjectGuid>{884AD71C-579B-4FAC-ACC2-169EB6FFB67F}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>egib.TopologiaKonturuów</RootNamespace>
-    <AssemblyName>egib.TopologiaKonturuów</AssemblyName>
+    <RootNamespace>Topologia</RootNamespace>
+    <AssemblyName>Topologia</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>

@@ -7,8 +7,8 @@
     <ProjectGuid>{0F445CFD-548E-4305-923E-DF92E4BD5A60}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>egib.swde</RootNamespace>
-    <AssemblyName>egib.swde</AssemblyName>
+    <RootNamespace>swde</RootNamespace>
+    <AssemblyName>swde</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SccProjectName>
@@ -39,7 +39,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\egib.swde.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\swde.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Pragmatic.Kontrakty">

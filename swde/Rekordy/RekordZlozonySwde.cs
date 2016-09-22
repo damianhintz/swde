@@ -1,4 +1,4 @@
-﻿namespace egib.swde.Rekordy
+﻿namespace swde.Rekordy
 {
     /// <summary>
     /// Rekord, który przedstawia obiekt złożony z innych obiektów.

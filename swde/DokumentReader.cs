@@ -1,9 +1,9 @@
 ﻿using System.IO;
-using egib.swde.Konstruktor;
-using egib.swde.Komponenty;
+using swde.Konstruktor;
+using swde.Komponenty;
 using Pragmatic.Kontrakty;
 
-namespace egib.swde
+namespace swde
 {
     internal class DokumentReader : DokumentBase
     {

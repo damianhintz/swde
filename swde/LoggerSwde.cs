@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using egib.swde.Rekordy;
+using swde.Rekordy;
 
-namespace egib.swde
+namespace swde
 {
     public static class LoggerSwde
     {

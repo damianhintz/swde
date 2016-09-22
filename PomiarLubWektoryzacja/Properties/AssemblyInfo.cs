@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("Wykaz rodzaju działek (pomiar lub wektoryzacja)")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("OPGK Olsztyn")]
-[assembly: AssemblyProduct("egib.PomiarLubWektoryzacja")]
+[assembly: AssemblyProduct("PomiarLubWektoryzacja")]
 [assembly: AssemblyCopyright("Copyright © OPGK Olsztyn 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

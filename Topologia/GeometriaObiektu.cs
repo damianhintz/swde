@@ -2,7 +2,7 @@
 using GeoAPI.Geometries;
 using NetTopologySuite.IO;
 
-namespace egib.TopologiaKonturuów
+namespace Topologia
 {
     public class GeometriaObiektu
     {

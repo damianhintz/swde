@@ -1,7 +1,7 @@
-﻿using egib.swde.Sekcje;
-using egib.swde.Rekordy;
+﻿using swde.Sekcje;
+using swde.Rekordy;
 
-namespace egib.swde.Komponenty
+namespace swde.Komponenty
 {
     /// <summary>
     /// Pozycja punktu.

@@ -4,13 +4,13 @@ using System.Text;
 using System.IO;
 using System.Linq;
 //using Pragmatic.Kontrakty;
-using egib.swde;
+using swde;
 using egib;
 using GeoAPI.Geometries;
 using NetTopologySuite.IO;
 using NetTopologySuite.IO.GML2;
 
-namespace egib.TopologiaKonturuów
+namespace Topologia
 {
     /// <summary>
     /// Klasoużytek (KKL: ofu,ozu,ozk,pew) -> Obręb (ROBR)

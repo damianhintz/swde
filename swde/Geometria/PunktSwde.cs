@@ -1,9 +1,9 @@
 ﻿using System;
 
-using egib.swde.Rekordy;
-using egib.swde.Komponenty;
+using swde.Rekordy;
+using swde.Komponenty;
 
-namespace egib.swde.Geometria
+namespace swde.Geometria
 {
     internal class PunktSwde : GeometriaSwde
     {

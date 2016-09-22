@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 
-using egib.swde.Rekordy;
-using egib.swde.Komponenty;
-using egib.swde.Geometria;
+using swde.Rekordy;
+using swde.Komponenty;
+using swde.Geometria;
 
-namespace egib.swde
+namespace swde
 {
     /// <summary>
     /// Reprezentuje geometrię rekordu przestrzennego w pliku SWDE.

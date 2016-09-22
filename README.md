@@ -1,4 +1,4 @@
-﻿swde.dll v1.0.1, 3 kwietnia 2014
+﻿swde.dll v1.1, 22 września 2016
 ---
 Biblioteka do odczytu formatu SWDE 2.0
 
@@ -41,6 +41,10 @@ Reprezentacja geometrii obiektu SWDE w postacji WKT.
 # Historia
 
 Do zrobienia
+
+2016-09-22 v1.1
+
+* aktualizacja przestrzeni nazw
 
 2014-04-03 v1.0.1
 

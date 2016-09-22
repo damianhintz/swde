@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace egib.swde
+namespace swde
 {
     /// <summary>
     /// Wyjątek rzucany przez SwdeReader, kiedy wystąpi błąd parsowania pliku SWDE.

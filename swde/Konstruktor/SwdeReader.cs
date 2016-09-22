@@ -1,7 +1,7 @@
 ﻿using System.Text;
 using System.IO;
 
-namespace egib.swde.Konstruktor
+namespace swde.Konstruktor
 {
     /// <summary>
     /// Czytnik pliku swde.

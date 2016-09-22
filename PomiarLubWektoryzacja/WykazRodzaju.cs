@@ -6,7 +6,7 @@ using System.IO;
 using Pragmatic.Kontrakty;
 using egib;
 
-namespace egib.PomiarLubWektoryzacja
+namespace PomiarLubWektoryzacja
 {
     /// <summary>
     /// Wykaz rodzaju działek w rozliczeniu.

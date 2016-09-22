@@ -1,4 +1,4 @@
-﻿namespace egib.swde.Sekcje
+﻿namespace swde.Sekcje
 {
     internal class SekcjaAtrybutowSwde : SekcjaSwdeBase
     {

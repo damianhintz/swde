@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace egib.swde.Rekordy
+namespace swde.Rekordy
 {
     class RekordId : IComparable<RekordId>, IEquatable<RekordId>
     {
