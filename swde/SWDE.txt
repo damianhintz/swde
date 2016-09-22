@@ -1,0 +1,985 @@
+SWDE.w.2.00.(C) GUGiK 2000;
+SN;
+NS,DN,2012-06-22
+NS,TR,IPE-ZK/142303_2
+NS,TN,Starostwo Powiatowe w Przysusze
+NS,TA,26-400 Przysucha Al. Jana Paw³a II 10
+NS,TO,KO¯USZEK JOLANTA
+NS,ZN,EGB V - GeoBaza
+NS,ZR,K3
+NS,ZD,Jednostka: 142303_2
+NS,OP,AKTUALIZACJA
+NS,OR,IPE-C
+NS,ON,GUGIK WARSZAWA
+NS,OA,WARSZAWA
+NS,OO,
+NS,UX,2000
+NS,OS,7
+NS,NX,N
+NS,NY,E
+NS,NZ,
+NS,UH,
+NS,HZ,
+NU,NAZWA,Starostwo Powiatowe w Przysusze
+SX;
+C; ================================================================================
+C; Parametry eksportu danych do formatu SWDE
+C; --------------------------------------------------------------------------------
+C; | Wersja programu SWDE: 3.78 z dnia 10.01.2012
+C; | Zakres eksportu: 1
+C; | Dane wektorowe (poligony): TAK
+C; | Punkty za³amania granic:   TAK
+C; | Opisy punktowe (G5PZN): NIE
+C; | Dane punktowe (centroidy): NIE
+C; | Budynki:                   TAK
+C; | Klasou¿ytki:               TAK
+C; | Rozszerzony zestaw typów grafiki:  NIE
+C; ================================================================================
+
+SP;
+
+C; Sekcja deklaracji atrybutów i wi±zañ
+
+B,G5BPP,NO,;        B³±d po³o¿enia wzglêdem osnowy
+B,G5DIM,ZN,;        Drugie Imiê
+B,G5DOS,ZN,;        Seria i numer dowodu osobistego lub paszportu
+B,G5DTA,DN,;        Data akceptacji zmiany
+B,G5DTD,DN,;        Data dokumentu
+B,G5DTP,DN,;        Data przyjêcia do zasobu
+B,G5DTU,DH,;        Data i czasz systemowy utworzenia obiektu
+B,G5DTW,DH,;        Data weryfikacji danych oraz czas
+B,G5DTZ,DN,;        Data druku zawiadomienia o zmianie
+B,G5DWR,DN,;        Data wyceny
+B,G5DWW,DN,;        Data up³ywu w³adania
+B,G5DUP,DN,;        Data up³ywu prawa zale¿nego
+B,G5DZP,NO,;        Precyzja powierzchni dzialki
+B,G5DZZ,DN,;        Data zg³oszenia zmiany
+B,G5FUZ,NO,;        Kod funkcji u¿ytkowej budynku
+B,G5GMN,ZN,;        Gmina - Dzielnica Gmina
+B,G5GSP,NO,;        Typ jednostki rejestrowej
+B,G5IDB,ZN,;        Identyfikator Budynku
+B,G5IDD,ZN,;        Identyfikator dzia³ki ewidencyjnej
+B,G5IDJ,ZN,;        Identyfikator jednostki ewidencyjnej
+B,G5IDK,ZN,;        Identyfikator konturu
+B,G5IDL,ZN,;        Identyfikator lokalu
+B,G5IDM,ZN,;        Oznaczenie dokumentu
+B,G5IDR,ZN,;        Identyfikator GUS rejonu statystycznego
+B,G5IDT,ZN,;        Identyfikator u¿ytku
+B,G5IJR,ZN,;        Identyfikator jednostki rejestrowej
+B,G5IPZ,ZN,;        Identyfikator opisu prawa zale¿nego
+B,G5KDK,NO,;        Kod dokumentu
+B,G5KOD,ZN,;        Kod pocztowy
+B,G5KRJ,ZN,;        Kraj
+B,G5LIZ,NO,;        Liczba izb
+B,G5LKP,FL,,;       Liczba kondygnacji podziemnych
+B,G5LKN,FL,,;       Liczba kondygnacji nadziemnych
+B,G5LPIS,ZN,;       Numer gospodarstwa w bazie LIPS
+B,G5LPP,NO,;        Liczba pomieszczeñ przynale¿nych
+B,G5LPRG,ZN,;       Numer linii granicznej w PRG
+B,G5MIM,ZN,;        Imiê matki
+B,G5MSC,ZN,;        Miejscowo¶æ
+B,G5NAZ,ZN,;        Nazwa w³asna
+B,G5NIP,ZN,;        Numer NIP
+B,G5NOS,ZN,;        Identyfikator GUS obwodu spisowego
+B,G5NPE,ZN,255;     Nazwa pe³na
+B,G5NPRG,ZN,;       Numer punktu w PRG
+B,G5NRA,ZN,;        Numer domu
+B,G5NRG,ZN,;        Numer granicy
+B,G5NRL,ZN,;        Numer Lokalu
+B,G5NRO,ZN,;        Identyfikator obrêbu w ramach jednostki ewidencyjnej
+B,G5NRP,ZN,;        Numer punktu
+B,G5NRR,ZN,;        Numer w oznaczonym rejestrze osób prawnych
+B,G5NRZ,ZN,;        Numer zmiany wed³ug dziennika
+B,G5NSK,ZN,;        Nazwa skrócona
+B,G5NSR,ZN,255;     Nazwa s±du
+B,G5NZR,ZN,;        Nazwa rejestru osób prawnych
+B,G5NZW,ZN,;        Nazwisko
+B,G5OBL,ZN,;        Obywatelstwo
+B,G5OIM,ZN,;        Imiê ojca
+B,G5OPD,ZN,255;     Opis dokumentu
+B,G5OZK,ZN,;        Oznaczenie klasy bonitacyjnej
+B,G5OZR,ZN,;        Oznaczenie w materiale ¼ród³owym
+B,G5OFU,ZN,;        Faktyczne u¿ytkowanie
+B,G5OPR,ZN,;        Opis prawa
+B,G5OZU,ZN,;        Oznaczenie u¿ytku
+B,G5PCZ,ZN,;        Poczta
+B,G5PEU,FL,,;       Powierzchnia u¿ytkowa
+B,G5PEW,FL,,;       Powierzchnia ewidencyjna
+B,G5PPP,FL,,;       Powierzchnia pomieszczeñ przynale¿nych
+B,G5PIM,ZN,;        Pierwsze Imiê
+B,G5PLC,NO,;        P³eæ
+B,G5PRZ,NO,;        Rodzaj prawa zale¿nego obci±¿aj±cego inn± nieruchomo¶æ
+B,G5PSL,NO,;        Numer  PESEL
+B,G5PWJ,ZN,;        Powiat - Miasto
+B,G5RBB,NO,;        Rok zakoñczenia budowy
+B,G5RGN,ZN,;        Oznaczenie gospodarstwa rolnego lub le¶nego wed³ug KRUPGN
+B,G5RPP,NO,;        Rodzaj pomieszczeñ przynale¿nych
+B,G5RWD,NO,;        Rodzaj w³adania
+B,G5RWDZ,NO,;       Rodzaj w³adania zale¿nego
+B,G5RW£,NO,;        Rodzaj w³asno¶ci
+B,G5RWZ,NO,;        Rodzaj zmiany
+B,G5RZG,NO,;        Rz±d granicy
+B,G5RZN,ZN,;        Numer wpisu do wojewódzkiego RZN
+B,G5SCN,NO,;        Konstrukcja ¶cian zewnêtrznych
+B,G5STB,NO,;        Kod stabilizacji
+B,G5STI,NO,;        Status podmiotu ewidencji
+B,G5STZ,ZN,255;     Opis zmiany
+B,G5SYG,ZN,;        Sygnatura dokumentu
+B,G5TAR,NO,;        Typ adresu
+B,G5TJR,NO,;        Typ jednostki rejestrowe
+B,G5TLOK,NO,;       Typ lokalu
+B,G5TPZ,NO,;        Typ wnioskuj±cego o zminê (wersja II)
+B,G5UD,UL,;         U³amek w³a¶ciwy w³asno¶ci
+B,G5ULC,ZN,;        Ulica
+B,G5WJD,ZN,;        Województwo
+B,G5WRT,NO,;        Warto¶æ
+B,G5ZRD,NO,;        ¬ród³o danych o po³o¿eniu
+
+C; Nowe z G5 z 2005;
+B,G5IPOP,ZN,;     Identyfikator punktu WWPPGG_R.NR
+B,G5ROP,NO,;      Rodzaj osnowy [1,2,3]
+B,G5ZRDOP,ZN,;    Zrodlo danych o polozeniu
+B,G5BPPOP,NO,;    Blad okreslenia polozenia [1,2]
+B,G5IPZN,ZN,;     Identyfikator punktu WWPPGG_R.NR
+B,G5TYPO,NO,;     Typ opisu [1..6]
+B,G5IOZN,ZN,;     Identyfikator obszaru WWPPGG_R.NR
+
+
+C; Dodatkowe atrybuty dla trybu roznicowego i rozszerzonego
+C;## B,GVDTU,DH,;    Data i czas utworzenia udzialu
+C;## B,GVDTW,DH,;    Data i czas Weryfikacji udzialu
+C;## B,GVCHW,ZN,;    Charakter wladania w udziale
+C;## B,GVGRP,ZN,;    Grupa rejestrowa przy udziale
+C;## B,GVARK,ZN,;    Numer arkusza mapy w dzialce
+C;## B,GVIBP,ZN,;    Pomocniczy identyfikator budynku
+C;## B,GVKST,NO,;    Kod KST budynku w/g EGB
+C;## B,GVPDB,NO,;    Pochodzenie danych budynkowych
+C;## B,GVFWL,NO,;    Forma wladania lokalem
+C;## B,GVIDW,ZN,;    Inny niz KW dokument wlasnosci (jesli jest KW)
+C;## B,GVDIP,ZN,;    Dokument innych praw do lokalu
+C;## B,GVIDP,ZN,;    Identyfikator PZP
+
+C; Dodatkowe atrybuty dla trybu roznicowego i rozszerzonego REDAKCJA
+C;## B,GVTYP,ZN,;         Typ obiektu P-punkt G5PZG,K-konstrukcja 
+C;## B,GVRODZAJ,ZN,;      Rodzaj obiektu np G5DZE,G5OBR,G5BUD ... 
+C;## B,GVIDGEO,ZN,;       Identyfikator geodezyjny obiektu (IDD,IDB ...)
+C;## B,GVSTATUS,NO,;      103=znak umowny,104=tekst umowny,105=okrag,106=krzywa
+C;## B,GVCECHA,ZN,;       cecha punktu 
+C;## B,GVELEMENT,NO,;     Kod elementu graficznego w konstrukcji lub nr znaku umownego w/g K1
+C;## B,GVROTACJA,NO,;     Rotacja napisu 
+C;## B,GVJUSTOWANIE,NO,;  justowanie napisu
+
+C; Dodatkowe atrybuty dla EWIDA
+C;## B,RODZIC_ID,NO,10;       Relacja do tablicy nadrzêdnej
+C;## B,SKALA,NO,5;            Mianownik Skali
+C;## B,FUN_X,FL,,;            Wspó³rzêdna x funkcji
+C;## B,FUN_Y,FL,,;            Wspó³rzêdna y funkcji
+C;## B,FUN_ODNOSNIK_X,FL,,;   Wspó³rzêdna x odno¶nika funkcji
+C;## B,FUN_ODNOSNIK_Y,FL,,;   Wspó³rzêdna y odno¶nika funkcji
+C;## B,FUN_JUSTYFIKACJA,NO,2; Justowanie funkcji
+C;## B,NR_TEKST_X,FL,,;       Wspó³rzêdna x identyfikatora ewidencyjnego
+C;## B,NR_TEKST_Y,FL,,;       Wspó³rzêdna y identyfikatora ewidencyjnego
+C;## B,NR_ODNOSNIK_X,FL,,;    Wspó³rzêdna x odno¶nika identyfikatora ewidencyjnego
+C;## B,NR_ODNOSNIK_Y,FL,,;    Wspó³rzêdna y odno¶nika identyfikatora ewidencyjnego
+C;## B,NR_JUSTYFIKACJA,NO,2;  Justowanie identyfikatora ewidencyjnego
+C;## B,TEKST_X,FL,,;          Wspó³rzêdna x identyfikatora ewidencyjnego
+C;## B,TEKST_Y,FL,,;          Wspó³rzêdna y identyfikatora ewidencyjnego
+C;## B,ODNOSNIK_X,FL,,;       Wspó³rzêdna x odno¶nika identyfikatora ewidencyjnego
+C;## B,ODNOSNIK_Y,FL,,;       Wspó³rzêdna y odno¶nika identyfikatora ewidencyjnego
+C;## B,JUSTYFIKACJA,NO,2;     Justowanie
+C;## B,TYP,NO,1;              Typ
+C;## B,MSL_KONTUR,NO,10;      Relacja do konturu klasyfikacyjnego
+C;## B,MSL_DZIALKA,NO,10;     Relacja do dzia³ki
+C;## B,NUMER,ZN,20;           Numer pikiety
+C;## B,X,FL,,;                Wspó³rzêdna x pikiety
+C;## B,Y,FL,,;                Wspó³rzêdna y pikiety
+C;## B,Z,FL,,;                Wspó³rzêdna z pikiety
+C;## B,KOD,ZN,20;             Kod pikiety
+C;## B,OPERAT_ID,NO,10;       Relacja do operatu
+C;## B,UKLAD_ID,NO,2;         Uk³ad wspó³rzêdnych
+C;## B,WSP_X,NO,10;           Wspó³rzêdna x
+C;## B,WSP_Y,NO,10;           Wspó³rzêdna y
+C;## B,ZMIANA_ID,NO,10;       Relacja do zmiany tworz±cej
+C;## B,ZMIANA_KAS_ID,NO,10;   Relacja do zmiany kasuj±cej
+C;## B,PIKIETA_ID,NO,10;      Relacja do pikiety
+C;## B,KAT,FL,,;              Kat obrotu
+C;## B,KLATKA,ZN,5;           Klatka
+C;## B,PIETRO,NO,5;           Pietro
+C;## B,RPP_POW,FL,,;          Powierzchnia poszczególnych pomieszczeñ przynale¿nych(pole wielowarto¶ciowe)
+C;## B,KOMENT,ZN,4000;        Komentarz
+C;## B,NR_LOK,ZN,15;          Numer lokalu
+
+
+C; Deklaracje typów relacji wystêpuj±cych w ramach ewidencji
+
+W,G5RM¡¯;     Wskazanie na osobê fizyczn± p³ci mêskiej
+W,G5ROBJ;     Wskazanie na rekordy obiektów których dotyczy
+W,G5RADR;     Posiada adres
+W,G5RBUD;     Jest czê¶ci± budynku
+W,G5RDOK;     Wskazanie na dokument(y) okre¶laj±ce podstawê prawn±
+W,G5RDZE;     Wskazanie na opisywan± dzia³kê ewidencyjn±
+W,G5REPZ;     Wskazuje na nieruchomo¶æ lub czê¶æ innej nieruchomo¶ci obci±¿onej
+W,G5RJDR;     Wskazanie na jednostkê rejestrow± do której nale¿y
+W,G5RJEW;     Wskazanie na jednostkê ewidencyjn± do której nale¿y
+W,G5RJRO;     Wskazanie na nieruchomo¶æ obci±¿on±
+W,G5RJRW;     Wskazuje na nieruchomo¶æ w³adn±c±
+W,G5RKRG;     Wskazanie na operat(-y) geodezyjny(-e)
+W,G5ROBR;     Jest po³o¿ony w obrêbie
+W,G5RPOD;     Jestem w³asno¶ci± - wskazanie na rekord osoby
+W,G5RPRZ;     Jest czê¶ci± opisu przedmiotu dzier¿awy
+W,G5RPWD;     Wskazanie na dokument okre¶laj±cy podstawê w³adania
+W,G5RPW£;     Wskazanie na dokument okre¶laj±cy podstawê w³asno¶ci
+W,G5RSKD;     Wskazanie na osoby lub instytucje wchodz±ce w sk³ad podmiotu grupowego
+W,G5RSZD;     Wskazanie na zarzad wspolnoty grntowej
+W,G5RW£D;     Jestem czê¶ci± jednostki rejestrowej - udzia³ w³adania
+W,G5RW£S;     Jestem czê¶ci± jednostki rejestrowej - udzia³ w³asno¶ci
+W,G5RWPZ;     Jestem czê¶ci± dzier¿awy - udzia³ posiadania
+W,G5R¯ONA;    Wskazanie na osobê fizyczn± p³ci ¿eñskiej
+SX;
+
+ST;
+C; Sekcja deklaracji typów aplikacyjnych
+
+C; {---------------------------------------------------------------------------}
+TD,G5JEW,RO;   Jednostka ewidencyjna
+TP,G5IDJ;      Identyfikator jednostki ewidencyjnej
+TP,G5PEW;      Powierzchnia ewidencyjna
+TP,G5NAZ;      Nazwa w³asna
+TP,G5DTW;      Data weryfikacji danych
+TP,G5DTU;      Data i czas systemowy utworzenia obiektu
+WR,G5RKRG;     Wskazanie na dokument operatu geodezyjnego opisu granic
+WW;             Relacja wielokrotna
+X;
+
+TD,G5O_JEW,RD; Jednostka ewidencyjna (tylko OPIS)
+TP,G5IDJ;      Identyfikator jednostki ewidencyjnej
+TP,G5PEW;      Powierzchnia ewidencyjna
+TP,G5NAZ;      Nazwa w³asna
+TP,G5DTW;      Data weryfikacji danych
+TP,G5DTU;      Data i czas systemowy utworzenia obiektu
+WR,G5RKRG;     Wskazanie na dokument operatu geodezyjnego opisu granic
+WW;     Relacja wielokrotna
+X;
+
+TD,G5G_JEW,RO; Jednostka ewidencyjna (tylko Grafika)
+TP,G5IDJ;      Identyfikator jednostki ewidencyjnej
+TP,G5NAZ;      Nazwa w³asna
+TP,G5DTW;      Data weryfikacji danych
+TP,G5DTU;      Data i czas systemowy utworzenia obiektu
+C;## WR,G5RKRG;     Wskazanie na dokument operatu geodezyjnego opisu granic
+C;## WW;            Relacja wielokrotna
+X;
+
+C; {---------------------------------------------------------------------------}
+
+TD,G5OBR,RO;   Obrêb
+TP,G5NRO;      Numer obrêbu w ramach jednostki ewidencyjnej
+TP,G5PEW;      Pole powierzchni ewidencyjnej
+TP,G5NAZ;      Nazwa w³asna
+TP,G5DTW;      Data weryfikacji danych
+TP,G5DTU;      Data i czas systemowy utworzenia obiektu
+WR,G5RKRG;     Wskazanie na dokument operatu geodezyjnego opisu granic
+WW;            Relacja wielokrotna
+WR,G5RJEW;     Wskazanie na jednostkê ewidencyjn± do której nale¿y
+X;
+
+TD,G5O_OBR,RD; Obrêb (tylko OPIS)
+TP,G5NRO;      Identyfikator obrêbu w ramach jednostki ewidencyjnej
+TP,G5PEW;      Pole powierzchni ewidencyjnej
+TP,G5NAZ;      Nazwa w³asna
+TP,G5DTW;      Data weryfikacji danych
+TP,G5DTU;      Data i czas systemowy utworzenia obiektu
+WR,G5RKRG;     Wskazanie na dokument operatu geodezyjnego opisu granic
+WW;            Relacja wielokrotna
+WR,G5RJEW;     Wskazanie na jednostkê ewidencyjn± do której nale¿y
+X;
+
+TD,G5G_OBR,RO; Obrêb (tylko Grafika)
+TP,G5NRO;      Identyfikator obrêbu w ramach jednostki ewidencyjnej
+TP,G5NAZ;      Nazwa w³asna
+TP,G5DTW;      Data weryfikacji danych
+TP,G5DTU;      Data i czas systemowy utworzenia obiektu
+C;## WR,G5RKRG;     Wskazanie na dokument operatu geodezyjnego opisu granic
+C;## WW;            Relacja wielokrotna
+X;
+
+C; {---------------------------------------------------------------------------}
+
+TD,G5RST,RO;   Rejon statystyczny
+TP,G5IDR;      Identyfikator GUS rejonu statystycznego
+TP,G5DTW;      Data weryfikacji danych
+TP,G5DTU;      Data i czas systemowy utworzenia obiektu
+WR,G5RKRG;     Wskazanie na dokument operatu geodezyjnego opisu granic
+WW;            Relacja wielokrotna
+X;
+
+TD,G5G_RST,RO; Rejon statystyczny
+TP,G5IDR;      Identyfikator GUS rejonu statystycznego
+TP,G5DTW;      Data weryfikacji danych
+TP,G5DTU;      Data i czas systemowy utworzenia obiektu
+C;## WR,G5RKRG;     Wskazanie na dokument operatu geodezyjnego opisu granic
+C;## WW;            Relacja wielokrotna
+X;
+
+C; {---------------------------------------------------------------------------}
+
+
+TD,G5OSF,RD;  Osoba fizyczna
+TP,G5STI;      Status podmiotu ewidencji
+TP,G5PLC;      P³eæ
+TP,G5PSL;      Numer PESEL
+TP,G5NIP;      Numer NIP
+TP,G5NZW;      Nazwisko
+TP,G5PIM;      Pierwsze Imiê
+TP,G5DIM;      Drugie Imiê
+TP,G5OIM;      Imiê ojca
+TP,G5MIM;      Imiê matki
+TP,G5OBL;      Obywatelstwo
+TP,G5DOS;      Seria i numer dowodu osobistego lub paszportu (opcjonalne)
+TP,G5DTW;      Data weryfikacji danych
+TP,G5DTU;      Data i czas systemowy utworzenia obiektu
+WR,G5RADR;     Posiada adres
+C; WW;         Osoba fizyczna mo¿e ujawniæ wiêcej ni¿ jeden adres
+X;
+
+TD,G5MLZ,RD;  Ma³¿eñstwo
+TP,G5DTW;      Data weryfikacji danych
+TP,G5DTU;      Data i czas systemowy utworzenia obiektu
+WR,G5R¯ONA;    Wskazanie na osobê fizyczn± p³ci ¿eñskiej
+WR,G5RM¡¯;     Wskazanie na osobê fizyczn± p³ci mêskiej
+X;
+
+TD, G5INS,RD;  Instytucja
+TP,G5STI;      Status podmiotu ewidencji
+TP,G5NPE;      Nazwa pe³na
+TP,G5NSK;      Nazwa skrócona
+TP,G5RGN;      Numer podmiotu gospodarki narodowej wed³ug KRUPGN
+TP,G5NIP;      Numer NIP
+TP,G5NZR;      Nazwa rejestru osób prawnych
+TP,G5NRR;      Numer w oznaczonym rejestrze osób prawnych
+TP,G5NSR;      Nazwa s±du rejestrowego
+TP,G5DTW;      Data weryfikacji danych
+TP,G5DTU;      Data i czas systemowy utworzenia obiektu
+WR,G5RADR;     Posiada adres,adres siedziby
+X;
+
+TD, G5OSZ,RD;  Podmiot grupowy
+TP,G5STI;      Status podmiotu ewidencji
+TP,G5NPE;      Nazwa pe³na
+TP,G5NSK;      Nazwa skrócona
+TP,G5RGN;      Numer podmiotu gospodarki narodowej wed³ug KRUPGN
+TP,G5NIP;      Numer NIP
+TP,G5DTW;      Data weryfikacji danych
+TP,G5DTU;      Data i czas systemowy utworzenia obiektu
+WR,G5RSKD;     Sk³ad podmiotu
+WW;            Relacja wielokrotna
+WR,G5RSZD;     Zarzad wspolnoty gruntowej
+WW;            Relacja wielokrotna
+WR,G5RADR;     Posiada adres,adres siedziby
+X;
+
+C; {---------------------------------------------------------------------------}
+
+TD,G5JDR,RC;   Jednostka rejestrowa
+TP,G5TJR;      Typ jednostki rejestrowe
+TP,G5IJR;      Identyfikator jednostki rejestrowej
+TP,G5GSP;      Rodzaj gospodarstwa
+TP,G5LPIS;     Numer gospodarstwa w LPIS
+TP,G5RGN;      Oznaczenie gospodarstwa rolnego lub le¶nego
+TP,G5RW£;      Rodzaj w³asno¶ci
+TP,G5DTW;      Data weryfikacji danych
+TP,G5DTU;      Data i czas systemowy utworzenia obiektu
+WR,G5ROBR;     Jest przypisana do obrêbu
+WE,G5RW£S;     Zawiera udzia³y w³asno¶ci
+WE,G5RW£D;     Zawiera udzia³y w³adania
+X;
+
+TD,G5UDZ,RD;     Udzia³ w³asno¶ci lub w³adania,o którym mowa w $11 ust. 2 (UW£S)
+TP,G5UD;         U³amek w³a¶ciwy w³asno¶ci
+C;## TP,GVCHW;      Charakter wladania w udziale
+C;## TP,GVGRP;      Grupa rejestrowa przy udziale
+C;## TP,GVDTW;      Data i czas Weryfikacji udzialu
+C;## TP,GVDTU;      Data i czas utworzenia udzialu
+TP,G5DTW;        Data weryfikacji danych
+TP,G5DTU;        Data i czas systemowy utworzenia obiektu
+WR,G5RPOD;       Jestem w³asno¶ci± - wskazanie na rekord osoby
+WR,G5RW£S;       Jestem elementem jednostki rejestrowej
+X;
+
+TD,G5UDW,RD;    Udzia³ w prawach przys³uguj±cych osobom,o których mowa w $ 12 ust.1 pkt 1. ( UW£D)
+TP,G5RWD;       Rodzaj innych ni¿ w³asno¶æ praw uwidacznianych w ewidencji ( rodzaj w³adania)
+TP,G5UD;        U³amek w³a¶ciwy w³asno¶ci
+TP,G5DWW;       Data uplywu wladania
+C;## TP,GVCHW;     Charakter wladania w udziale
+C;## TP,GVGRP;     Grupa rejestrowa przy udziale
+C;## TP,GVDTW;     Data i czas Weryfikacji udzialu
+C;## TP,GVDTU;     Data i czas utworzenia udzialu
+TP,G5DTW;       Data weryfikacji danych
+TP,G5DTU;       Data i czas systemowy utworzenia obiektu
+WR,G5RPOD;      Jestem posiadany - wskazanie na rekord osoby
+WR,G5RW£D;      Jestem elementem jednostki rejestrowej
+X;
+
+C; {---------------------------------------------------------------------------}
+
+TD,G5JRZ,RD;   Jednostki rejestrowe zale¿ne
+TP,G5PRZ;      Rodzaj prawa zale¿nego obci±¿aj±cego inn± nieruchomo¶æ
+TP,G5UD;       Udzia³ prawa w nieruchomo¶ci obci±¿onej
+TP,G5DTW;      Data weryfikacji danych
+TP,G5DTU;      Data i czas systemowy utworzenia obiektu
+WR,G5RDOK;     Wskazanie na dokument(y) okre¶laj±ce podstawê prawn±
+WW;            Relacja wielokrotna
+WR,G5RJRW;     Wskazuje na nieruchomo¶æ w³adn±c±
+WR,G5RJRO;     Wskazanie na nieruchomo¶æ obci±¿on±
+X;
+
+C; {---------------------------------------------------------------------------}
+
+TD, G5DZE,RO; Dzia³ka ewidencyjna
+TP,G5IDD;      Identyfikator dzia³ki ewidencyjnej
+TP,G5IDR;      Identyfikator rejonu statystycznego
+TP,G5NOS;      Identyfikator obwodu spisowego
+TP,G5WRT;      Warto¶æ dzia³ki ewidencyjnej
+TP,G5DWR;      Data wyceny
+TP,G5PEW;      Powierzchnia ewidencyjna
+TP,G5DZP;      Precyzja powierzchni dzialki
+TP,G5RZN;      Numer wpisu do wojewódzkiego RZN
+TP,G5DWW;      Data up³ywu w³adania
+C;## TP,GVARK;    Numer arkusza mapy w dzialce
+C;## TP,GVIDW;    Inny niz KW dokument wlasnosci (jesli jest KW)
+TP,G5DTW;      Data weryfikacji danych
+TP,G5DTU;      Data i czas systemowy utworzenia obiektu
+WR,G5RADR;     Posiada adresy i/ lub nazwê w³asn±
+WW;            Dzia³ka ewidencyjna mo¿e mieæ wiele adresów
+WR,G5RPW£;     Wskazanie na dokument okre¶laj±cy podstawê w³asno¶ci
+WW;            Relacja wielokrotna
+WR,G5RPWD;     Wskazanie na dokument okre¶laj±cy podstawê w³adania
+WW;            Relacja wielokrotna
+WR,G5RKRG;     Wskazanie na operat geodezyjny okre¶lenia granic
+WW;            Relacja wielokrotna
+WR,G5RJDR;     Wskazanie na jednostkê rejestrow± do której nale¿y
+X;
+
+TD,G5O_DZE,RD;   Dzia³ka ewidencyjna (opis)
+TP,G5IDD;        Identyfikator dzia³ki ewidencyjnej
+TP,G5IDR;        Identyfikator rejonu statystycznego
+TP,G5NOS;        Identyfikator obwodu spisowego
+TP,G5WRT;        Warto¶æ dzia³ki ewidencyjnej
+TP,G5DWR;        Data wyceny
+TP,G5PEW;        Powierzchnia ewidencyjna
+TP,G5DZP;        Precyzja powierzchni dzialki
+TP,G5RZN;        Numer wpisu do wojewódzkiego RZN
+TP,G5DWW;        Data up³ywu w³adania
+C;## TP,GVARK;     Numer arkusza mapy w dzialce
+C;## TP,GVIDW;     Inny niz KW dokument wlasnosci (jesli jest KW)
+TP,G5DTW;        Data weryfikacji danych
+TP,G5DTU;        Data i czas systemowy utworzenia obiektu
+WR,G5RADR;       Posiada adresy i/ lub nazwê w³asn±
+WW;              Dzia³ka ewidencyjna mo¿e mieæ wiele adresów
+WR,G5RPW£;       Wskazanie na dokument okre¶laj±cy podstawê w³asno¶ci
+WW;              Relacja wielokrotna
+WR,G5RPWD;       Wskazanie na dokument okre¶laj±cy podstawê w³adania
+WW;              Relacja wielokrotna
+WR,G5RKRG;       Wskazanie na operat geodezyjny okre¶lenia granic
+WW;              Relacja wielokrotna
+WR,G5RJDR;       Wskazanie na jednostkê rejestrow± do której nale¿y
+X;
+
+TD,G5G_DZE,RO;   Dzia³ka ewidencyjna (Grafika)
+TP,G5IDD;        Identyfikator dzia³ki ewidencyjnej
+TP,G5DTW;        Data weryfikacji danych
+TP,G5DTU;        Data i czas systemowy utworzenia obiektu
+C;## WR,G5RKRG;     Wskazanie na dokument operatu geodezyjnego opisu granic
+C;## WW;            Relacja wielokrotna
+X;
+
+C; {---------------------------------------------------------------------------}
+
+TD, G5KLU,RD;   Klasou¿ytek w dzia³ce ewidencyjnej
+TP,G5OFU;       Rodzaj faktycznego u¿ytkowania
+TP,G5OZU;       Rodzaj u¿ytku wed³ug operatu gleboznawczego
+TP,G5OZK;       Oznaczenie klasy bonitacyjnej
+TP,G5PEW;       Powierzchnia ewidencyjna
+TP,G5DTW;       Data weryfikacji danych
+TP,G5DTU;       Data i czas systemowy utworzenia obiektu
+WR,G5RDZE;      Wskazanie na opisywan± dzia³kê ewidencyjn±
+X;
+
+C; {---------------------------------------------------------------------------}
+
+TD,G5BUD,RO;   Budynek
+TP,G5IDB;      Identyfikator Budynku
+TP,G5FUZ;      Kod funkcji u¿ytkowej budynku
+TP,G5WRT;      Warto¶æ budynku
+TP,G5DWR;      Data wyceny
+TP,G5RBB;      Rok zakoñczenia budowy
+TP,G5LKP;      Liczba kondygnacji podziemnych
+TP,G5LKN;      Liczba kondygnacji nadziemnych
+TP,G5PEW;      Powierzchnia zabudowy
+TP,G5PEU;      Powierzchnia u¿ytkowa
+TP,G5RZN;      Numer wpisu do wojewódzkiego RZN
+TP,G5SCN;      Konstrukcja ¶cian zewnêtrznych
+C;## TP,GVIBP;    Pomocniczy identyfikator budynku
+C;## TP,GVKST;    Kod KST budynku w/g EGB
+C;## TP,GVPDB;    Pochodzenie danych budynkowych
+C;## TP,GVIDW;    Inny niz KW dokument wlasnosci (jesli jest KW)
+TP,G5DTW;      Data weryfikacji danych
+TP,G5DTU;      Data i czas systemowy utworzenia obiektu
+WR,G5RADR;     Posiada adresy i/ lub nazwê w³asn±
+WW;            Dzia³ka ewidencyjna mo¿e mieæ wiele adresów
+WR,G5RPW£;     Wskazanie na dokument okre¶laj±cy podstawê w³asno¶ci
+WW;            Relacja wielokrotna
+WR,G5RPWD;     Podstawa innych praw do budynku
+WW;            Relacja wielokrotna
+WR,G5RKRG;     Wskazanie na operat geodezyjny okre¶lenia po³o¿enia
+WW;            Relacja wielokrotna
+WR,G5RDOK;     Dokument bêd±cy podstawa zapisów kartotekowych
+WW;            Relacja wielokrotna
+WR,G5RJDR;     Wskazanie na jednostkê rejestrow± do której nale¿y
+WR,G5RDZE;     Jest po³o¿ony na gruntach dzia³ki (-ek) ewidencyjnej (-ych)
+WW;
+X;
+
+TD,G5O_BUD,RD; Budynek (opis)
+TP,G5IDB;      Identyfikator Budynku
+TP,G5FUZ;      Kod funkcji u¿ytkowej budynku
+TP,G5WRT;      Warto¶æ budynku
+TP,G5DWR;      Data wyceny
+TP,G5RBB;      Rok zakoñczenia budowy
+TP,G5LKP;      Liczba kondygnacji podziemnych
+TP,G5LKN;      Liczba kondygnacji nadziemnych
+TP,G5PEW;      Powierzchnia zabudowy
+TP,G5PEU;      Powierzchnia u¿ytkowa
+TP,G5RZN;      Numer wpisu do wojewódzkiego RZN
+TP,G5SCN;      Konstrukcja ¶cian zewnêtrznych
+C;## TP,GVIBP;    Pomocniczy identyfikator budynku
+C;## TP,GVKST;    Kod KST budynku w/g EGB
+C;## TP,GVPDB;    Pochodzenie danych budynkowych
+C;## TP,GVIDW;    Inny niz KW dokument wlasnosci (jesli jest KW)
+TP,G5DTW;      Data weryfikacji danych
+TP,G5DTU;      Data i czas systemowy utworzenia obiektu
+WR,G5RADR;     Posiada adresy i/ lub nazwê w³asn±
+WW;            Dzia³ka ewidencyjna mo¿e mieæ wiele adresów
+WR,G5RPW£;     Wskazanie na dokument okre¶laj±cy podstawê w³asno¶ci
+WW;            Relacja wielokrotna
+WR,G5RPWD;     Wskazanie na dokument innych praw
+WW;            Relacja wielokrotna
+WR,G5RKRG;     Wskazanie na operat geodezyjny okre¶lenia po³o¿enia
+WW;            Relacja wielokrotna
+WR,G5RDOK;     Dokument bêd±cy podstawa zapisów kartotekowych
+WW;            Relacja wielokrotna
+WR,G5RJDR;     Wskazanie na jednostkê rejestrow± do której nale¿y
+WR,G5RDZE;     Jest po³o¿ony na gruntach dzia³ki (-ek) ewidencyjnej (-ych)
+WW;
+X;
+
+TD,G5G_BUD,RO;   Budynek (grafika)
+TP,G5IDB;        Identyfikator Budynku
+TP,G5FUZ;        Kod funkcji u¿ytkowej budynku
+TP,G5DTW;        Data weryfikacji danych
+TP,G5DTU;        Data i czas systemowy utworzenia obiektu
+C;## WR,G5RKRG;     Wskazanie na dokument operatu geodezyjnego opisu granic
+C;## WW;            Relacja wielokrotna
+X;
+
+C; {---------------------------------------------------------------------------}
+
+TD,G5LKL,RD;   Lokal samodzielny
+TP,G5IDL;      Identyfikator lokalu
+TP,G5TLOK;     Typ lokalu
+TP,G5PEW;      Powierzchnia u¿ytkowa
+TP,G5PPP;      Powierzchnia u¿ytkowa pomieszczeñ przynale¿nych
+TP,G5LIZ;      Liczba izb
+TP,G5LPP;      Liczba pomieszczeñ przynale¿nych
+TP,G5RPP;      Rodzaj pomieszczeñ przynale¿nych (pole wielowarto¶ciowe)
+TPW;           Krotno¶æ warto¶ci powinna byæ równa warto¶ci pola G5LPP
+TP,G5WRT;      Warto¶æ budynku
+TP,G5DWR;      Data wyceny
+C;## TP,GVFWL;     Forma wladania lokalem
+C;## TP,GVDIP;     Dokument innych praw do lokalu
+C;## TP,KLATKA;    Klatka
+C;## TP,PIETRO;    Piêtro
+C;## TP,RPP_POW;   Powierzchnia poszczególnych pomieszczeñ przynale¿nych(pole wielowarto¶ciowe)
+C;## TP,KOMENT;    Komentarz
+C;## TP,NR_LOK;    Numer lokalu
+TP,G5DTW;      Data weryfikacji danych
+TP,G5DTU;      Data i czas systemowy utworzenia obiektu
+WR,G5RJDR;     Jest czê¶ci± jednostki rejestrowej (tylko dla lokali wydzielonych)
+WR,G5RADR;     Posiada adres
+WR,G5RPW£;     Wskazanie na dokument okre¶laj±cy podstawê w³asno¶ci (tylko dla lokali wydzielonych)
+WW;            Relacja wielokrotna
+WR,G5RDOK;     Podstawa prawna zapisów kartotekowych
+WW;            Relacja wielokrotna
+WR,G5RBUD;     Jest czê¶ci± budynku
+X;
+
+C; {---------------------------------------------------------------------------}
+
+TD,G5UZG,RO;   U¿ytek gruntowy
+TP,G5IDT;      Identyfikator u¿ytku
+TP,G5OFU;      Oznaczenie u¿ytku
+TP,G5PEW;      Powierzchnia ewidencyjna
+TP,G5DTW;      Data weryfikacji danych
+TP,G5DTU;      Data i czas systemowy utworzenia obiektu
+WR,G5RKRG;     Wskazanie na operat(y) geodezyjny
+WW;
+WR,G5ROBR;     Jest po³o¿ony w granicach obrêbu
+X;
+
+TD,G5G_UZG,RO;  U¿ytek gruntowy (tylko grafika)
+TP,G5IDT;       Identyfikator u¿ytku
+TP,G5OFU;       Oznaczenie u¿ytku
+TP,G5PEW;       Powierzchnia ewidencyjna
+TP,G5DTW;       Data weryfikacji danych
+TP,G5DTU;       Data i czas systemowy utworzenia obiektu
+C;## WR,G5RKRG;   Wskazanie na dokument operatu geodezyjnego opisu granic
+C;## WW;          Relacja wielokrotna
+X;
+
+C; {---------------------------------------------------------------------------}
+
+TD,G5KKL,RO;   Kontur klasyfikacyjny
+TP,G5IDK;      Identyfikator konturu
+TP,G5OZU;      Oznaczenie u¿ytku
+TP,G5OZK;      Oznaczenie klasy bonitacyjnej
+TP,G5PEW;      Powierzchnia ewidencyjna
+TP,G5DTW;      Data weryfikacji danych
+TP,G5DTU;      Data i czas systemowy utworzenia obiektu
+WR,G5RKRG;     Wskazanie na operat(y) geodezyjny
+WW;
+WR,G5ROBR;     Jest po³o¿ony w granicach obrêbu
+X;
+
+TD,G5G_KKL,RO;   Kontur klasyfikacyjny
+TP,G5IDK;        Identyfikator konturu
+TP,G5OZU;        Oznaczenie u¿ytku
+TP,G5OZK;        Oznaczenie klasy bonitacyjnej
+TP,G5PEW;        Powierzchnia ewidencyjna
+TP,G5DTW;        Data weryfikacji danych
+TP,G5DTU;        Data i czas systemowy utworzenia obiektu
+C;## WR,G5RKRG;     Wskazanie na dokument operatu geodezyjnego opisu granic
+C;## WW;            Relacja wielokrotna
+X;
+
+C; {---------------------------------------------------------------------------}
+
+
+TD,G5ADR,RD;   Adres
+TP,G5TAR;      Typ adresu
+TP,G5NAZ;      Nazwa w³asna
+TP,G5KRJ;      Kraj
+TP,G5WJD;      Województwo
+TP,G5PWJ;      Powiat - Miasto
+TP,G5GMN;      Gmina - Dzielnica Gmina
+TP,G5ULC;      Ulica
+TP,G5NRA;      Numer domu
+TP,G5NRL;      Numer Lokalu
+TP,G5MSC;      Miejscowo¶æ
+TP,G5KOD;      Kod pocztowy
+TP,G5PCZ;      Poczta
+TP,G5DTW;      Data weryfikacji danych
+TP,G5DTU;      Data i czas systemowy utworzenia obiektu
+X;
+
+
+TD, G5PZG,RP;  Punkt za³amania granicy
+TP,G5NRP;      Numer punktu
+TP,G5OZR;      Oznaczenie w materiale ¼ród³owym
+TP,G5STB;      Kod stabilizacji
+TP,G5ZRD;      ¬ród³o danych o po³o¿eniu
+TP,G5BPP;      B³±d po³o¿enia wzglêdem osnowy
+TP,G5RZG;      Kod rzedu granicy
+TP,G5NPRG;     Numer punktu w PRG
+TP,G5LPRG;     Numer linii granicznej w PRG
+TP,G5DTW;      Data weryfikacji danych
+TP,G5DTU;      Data i czas systemowy utworzenia obiektu
+WR,G5RKRG;     Wskazanie na operat(y) geodezyjny
+WW;
+X;
+
+TD,G5ZMN,RD;   Zmiana
+TP,G5NRZ;      Numer zmiany wed³ug dziennika
+TP,G5STZ;      Opis zmiany
+TP,G5TPZ;      Typ wnioskuj±cego o zmianê (wersja 2)
+TP,G5RWZ;      Rodzaj zmiany
+TP,G5DZZ;      Data zg³oszenia zmiany
+TP,G5DTA;      Data akceptacji zmiany
+TP,G5DTZ;      Data druku zawiadomienia o zmianie
+TP,G5NAZ;      Jednostka Prowadz±ca
+TP,G5DTW;      Data weryfikacji danych
+TP,G5DTU;      Data i czas systemowy utworzenia obiektu
+WR,G5ROBJ;     Wskazanie na rekordy obiektów których dotyczy
+WW;
+WR,G5RDOK;     Podstawa zmian
+WW;
+WR,G5RPOD;     Wskazanie na podmiot wnioskuj±ce o zmianê
+WW;
+X;
+
+TD,G5DOK,RD;   Dokument
+TP,G5IDM;      Oznaczenie dokumentu
+TP,G5KDK;      Kod dokumentu
+TP,G5DTD;      Data dokumentu
+TP,G5DTP;      Data przyjêcia do zasobu
+TP,G5SYG;      Sygnatura dokumentu oryginalna
+TP,G5NSR;      Nazwa Sadu Rejonowego
+TP,G5OPD;      Opis dokumentu
+TP,G5DTW;      Data weryfikacji danych
+TP,G5DTU;      Data i czas systemowy utworzenia obiektu
+WR,G5RDOK;     Wskazania na inne dokumenty,tylko gdy zachodzi taka potrzeba
+WW;
+X;
+
+TD,G5GRN,RL;   Granica
+TP,G5NRG;      Numer granicy
+TP,G5OZR;      Oznaczenie w materiale ¼ród³owym
+TP,G5RZG;      Rz±d granicy
+TP,G5LPRG;     Numer linii granicznej w PRG
+TP,G5DTW;      Data weryfikacji danych
+TP,G5DTU;      Data i czas systemowy utworzenia obiektu
+WR,G5RKRG;     Wskazanie na operat(y) geodezyjny
+WW;
+X;
+
+TD,G5DZW,RC;   Dzier¿awa rejestrowana na wniosek
+TP,G5IPZ;      Identyfikator opisu prawa zale¿nego
+TP,G5RWDZ;     Rodzaj w³adania zale¿nego
+TP,G5GSP;      Typ gospodarstwa
+TP,G5LPIS;     Oznaczenie gospodarstwa w LPIS
+TP,G5RGN;      Oznaczenie gospodarstwa rolnego lub le¶nego
+TP,G5OPR;      Opis prawa
+TP,G5DUP;
+TP,G5DTW;      Data weryfikacji danych
+TP,G5DTU;      Data i czas systemowy utworzenia obiektu
+WR,G5RDOK;     Podstawa prawna
+WW;
+WE,G5RWPZ;     Zawieram opis w³asno¶ci prawa  (Udzia³y posiadania)
+WE,G5RPRZ;     Dotyczy przedmiotów ewidencji,zawiera przedmioty dzier¿awy
+X;
+
+TD,G5UDD,RD;     Udzia³ w posiadaniu dzier¿awy
+TP,G5UD;         U³amek w³a¶ciwy posiadania
+C;## TP,GVCHW;     Charakter wladania w udziale
+C;## TP,GVGRP;     Grupa rejestrowa przy udziale
+C;## TP,GVDTW;     Data i czas Weryfikacji udzialu
+C;## TP,GVDTU;     Data i czas utworzenia udzialu
+TP,G5DTW;        Data weryfikacji danych
+TP,G5DTU;        Data i czas systemowy utworzenia obiektu
+WR,G5RWPZ;       Jestem czê¶ci± dzier¿awy
+WR,G5RPOD;       Jestem posiadany - wskazanie na rekord osoby
+X;
+
+TD,G5PDZ,RD;    Przedmiot dzier¿awy
+TP,G5UD;        Udzia³ w czê¶ci nieruchomo¶ci obci±¿onej
+TP,G5DTW;       Data weryfikacji danych
+TP,G5DTU;       Data i czas systemowy utworzenia obiektu
+WR,G5RPRZ;      Jest czê¶ci±  dzier¿awy
+WR,G5REPZ;      Wskazuje na nieruchomo¶æ lub czê¶æ nieruchomo¶ci której dotyczy
+WW;
+X;
+
+
+C; Sekcja deklaracji typów aplikacyjnych reprezentuj±cych centroidy
+
+TD,G5GRP_JEW,RP;      Jednostka ewidencyjna
+TP,G5IDJ;             Identyfikator jednostki ewidencyjnej
+TP,G5NAZ;             Nazwa w³asna
+TP,G5DTW;             Data weryfikacji danych
+TP,G5DTU;             Data i czas systemowy utworzenia obiektu
+X;
+TD,G5GRP_OBR,RP;     Obrêb
+TP,G5NRO;            Numer obrêbu w ramach jednostki ewidencyjnej
+TP,G5NAZ;            Nazwa w³asna
+TP,G5DTW;            Data weryfikacji danych
+TP,G5DTU;            Data i czas systemowy utworzenia obiektu
+X;
+TD,G5GRP_RST,RP;     Rejon statystyczny
+TP,G5IDR;            Identyfikator GUS rejonu statystycznego
+TP,G5DTW;            Data weryfikacji danych
+TP,G5DTU;            Data i czas systemowy utworzenia obiektu
+X;
+TD,G5GRP_DZE,RP;     Dzia³ka ewidencyjna
+TP,G5IDD;            Identyfikator dzia³ki
+TP,G5DTW;            Data weryfikacji danych
+TP,G5DTU;            Data i czas systemowy utworzenia obiektu
+X;
+TD,G5GRP_BUD,RP;     Budynek
+TP,G5IDB;            Identyfikator Budynku
+TP,G5DTW;            Data weryfikacji danych
+TP,G5DTU;            Data i czas systemowy utworzenia obiektu
+X;
+TD,G5GRP_UZG,RP;     U¿ytek gruntowy
+TP,G5IDT;            Identyfikator u¿ytku
+TP,G5DTW;            Data weryfikacji danych
+TP,G5DTU;            Data i czas systemowy utworzenia obiektu
+X;
+TD,G5GRP_KKL,RP;     Kontur klasyfikacyjny
+TP,G5IDK;            Identyfikator konturu
+TP,G5DTW;            Data weryfikacji danych
+TP,G5DTU;            Data i czas systemowy utworzenia obiektu
+X;
+
+
+C; Sekcja deklaracji nowych typów aplikacyjnych (G5 z 2005)
+
+TD,G5POP,RP;     Punkt poziomej osnowy geodezyjnej
+TP,G5IPOP;       Identyfikator punktu WWPPGG_R.NR
+TP,G5ROP;        Rodzaj osnowy [1,2,3]
+TP,G5OZR;        Oznaczenie w materiale zrodlowym
+TP,G5ZRDOP;      Zrodlo danych o polozeniu
+TP,G5BPPOP;      Blad okreslenia polozenia [1,2]
+TP,G5DTW;        Data weryfikacji danych
+TP,G5DTU;        Data i czas systemowy utworzenia obiektu
+WR,G5RKRG;       Dokument okreslenia polozenia
+WW;
+X;
+
+TD,G5PZN,RP;      Punkt,z ktorym zwiazana jest nazwa lub oznaczenie
+TP,G5IPZN;        Identyfikator punktu WWPPGG_R.NR
+TP,G5TYPO;        Typ opisu [1..6]
+TP,G5NAZ;         Nazwa zwiazana z punktem
+C;## TP,GVTYP;           Redakcja > Typ obiektu: P-punkt G5PZG,K-konstrukcja
+C;## TP,GVRODZAJ;        Redakcja > Rodzaj obiektu np G5DZE,G5OBR,G5BUD ... 
+C;## TP,GVIDGEO;         Redakcja > Identyfikator geodezyjny obiektu (IDD,IDB ...)
+C;## TP,GVSTATUS;        Redakcja > 103=znak umowny,104=tekst umowny,105=okrag,106=krzywa
+C;## TP,GVCECHA;         Redakcja > cecha punktu 
+C;## TP,GVELEMENT;       Redakcja > kod elementu graficznego w konstrukcji lub nr znaku umownego w/g K1
+C;## TP,GVROTACJA;       Redakcja > rotacja napisu 
+C;## TP,GVJUSTOWANIE;    Redakcja > justowanie napisu
+TP,G5DTW;         Data weryfikacji danych
+TP,G5DTU;         Data i czas systemowy utworzenia obiektu
+C;## WR,G5ROBJ;          Redakcja > Wskazanie na rekord obiektu,którego dotyczy redakcja
+WR,G5RKRG;        Dokument okreslenia polozenia
+WW;
+X;
+
+TD,G5OZN,RO;   Obszar,z ktorym zwiazana jest nazwa lub oznaczenie
+TP,G5IOZN;     Identyfikator obszaru WWPPGG_R.NR
+TP,G5TYPO;     Typ opisu [1..6]
+TP,G5NAZ;      Nazwa zwiazana z punktem
+TP,G5DTW;      Data weryfikacji danych
+TP,G5DTU;      Data i czas systemowy utworzenia obiektu
+WR,G5RKRG;     Dokument okreslenia polozenia
+WW;
+X;
+
+
+C; Obszary planu zagospodarwoania przestrzennego
+C;## TD,GVPZP,RO; 
+C;## TP,GVIDP;      Identyfikator
+C;## TP,G5PEW;      Powierzchnia
+C;## TP,G5DTW;      Data weryfikacji danych
+C;## TP,G5DTU;      Data i czas systemowy utworzenia obiektu
+C;## WR,G5RKRG;     Wskazanie na operat(y) geodezyjny
+C;## WW;
+C;## X;
+
+C;## TD,GVG_PZP,RO; 
+C;## TP,GVIDP;     Identyfikator
+C;## TP,G5PEW;     Powierzchnia
+C;## TP,G5DTW;     Data weryfikacji danych
+C;## TP,G5DTU;     Data i czas systemowy utworzenia obiektu
+C;## WR,G5RKRG;    Wskazanie na operat(y) geodezyjny
+C;## WW;
+C;## X;
+
+
+C; Dodatkowe typy EWIDa
+
+C;## TD,REDAKCJA_BUDYNEK,RD;    Redakcja budynku
+C;## TP,RODZIC_ID;              Relacja do Tablicy nadrzêdnej
+C;## TP,SKALA;                  Mianownik Skali
+C;## TP,FUN_X;                  Wspó³rzêdna x funkcji
+C;## TP,FUN_Y;                  Wspó³rzêdna y funkcji
+C;## TP,FUN_ODNOSNIK_X;         Wspó³rzêdna x odnosnika funkcji
+C;## TP,FUN_ODNOSNIK_Y;         Wspó³rzêdna y odnosnika funkcji
+C;## TP,FUN_JUSTYFIKACJA;       Justowanie funkcji
+C;## TP,NR_TEKST_X;             Wspó³rzêdna x identyfikatora ewidencyjnego
+C;## TP,NR_TEKST_Y;             Wspó³rzêdna y identyfikatora ewidencyjnego
+C;## TP,NR_ODNOSNIK_X;          Wspó³rzêdna x odno¶nika identyfikatora ewidencyjnego
+C;## TP,NR_ODNOSNIK_Y;          Wspó³rzêdna y odno¶nika identyfikatora ewidencyjnego
+C;## TP,NR_JUSTYFIKACJA;        Justowanie identyfikatora ewidencyjnego
+C;## X;
+
+C;## TD,PIKIETA,RD;        Pikieta
+C;## TP,NUMER;             Numer pikiety
+C;## TP,X;                 Wspó³rzêdna x pikiety
+C;## TP,Y;                 Wspó³rzêdna y funkcji
+C;## TP,Z;                 Wspó³rzêdna z funkcji
+C;## TP,KOD;               Kod pikiety
+C;## TP,OPERAT_ID;         Relacja do opertu
+C;## TP,G5ZRD;             Pochodzenie
+C;## TP,G5BPP;             B³±d po³o¿enia
+C;## TP,G5STB;             Stabilizacja
+C;## TP,UKLAD_ID;          Uk³ad wspó³rzêdnych
+C;## TP,G5DTW;             Data weryfikacji
+C;## TP,G5DTU;             Data utworzenia
+C;## X;
+
+C;## TD,PUNKT_B,RD;        Punkt budynku
+C;## TP,WSP_X;             Wspó³rzêdna x punktu budynku
+C;## TP,WSP_Y;             Wspó³rzêdna y punktu budynku
+C;## TP,ZMIANA_ID;         Relacja do zmiany tworzacej
+C;## TP,ZMIANA_KAS_ID;     Relacja do zmiany kasujacej
+C;## TP,PIKIETA_ID;        Relacja do pikiety
+C;## TP,OPERAT_ID;         Relacja do operatu
+C;## TP,G5DTW;             Data weryfikacji
+C;## TP,G5DTU;             Data utworzenia
+C;## X;
+
+C;## TD,REDAKCJA_OBSZAR,RD;  Redakcja dzia³ki i konTuru klasou¿ytku
+C;## TP,RODZIC_ID;           Relacja do Tablicy nadrzêdnej
+C;## TP,SKALA;               Mianownik Skali
+C;## TP,TEKST_X;             Wspó³rzêdna x numeru dzia³ki
+C;## TP,TEKST_Y;             Wspó³rzêdna y numeru dzia³ki
+C;## TP,ODNOSNIK_X;          Wspó³rzêdna x odnosnika numeru dzia³ki
+C;## TP,ODNOSNIK_Y;          Wspó³rzêdna y odnosnika numeru dzia³ki
+C;## TP,JUSTYFIKACJA;        Justowanie numeru dzia³ki
+C;## TP,TYP;                 Typ
+C;## X;
+
+C;## TD,REDAKCJA_KLASA,RD;   Redakcja konTuru klasyfikacyjnego
+C;## TP,MSL_KONTUR;          Relacja do konTuru klasyfikacyjnego
+C;## TP,MSL_DZIALKA;         Relacja do dzia³ki
+C;## TP,SKALA;               Mianownik Skali
+C;## TP,TEKST_X;             Wspó³rzêdna x oznaczenia konTuru
+C;## TP,TEKST_Y;             Wspó³rzêdna y oznaczenia konTuru
+C;## TP,ODNOSNIK_X;          Wspó³rzêdna x odnosnika oznaczenia konTuru
+C;## TP,ODNOSNIK_Y;          Wspó³rzêdna y odnosnika oznaczenia konTuru
+C;## TP,JUSTYFIKACJA;        Justowanie oznaczenia konturu
+C;## X;
+
+C;## TD,REDAKCJA_UZYTEK,RD;  Redakcja u¿ytku gruntowego
+C;## TP,MSL_KONTUR;          Relacja do u¿ytku gruntowego
+C;## TP,MSL_DZIALKA;         Relacja do dzia³ki
+C;## TP,SKALA;               Mianownik Skali
+C;## TP,TEKST_X;             Wspó³rzêdna x oznaczenia u¿ytku gruntowego
+C;## TP,TEKST_Y;             Wspó³rzêdna y oznaczenia u¿ytku gruntowego
+C;## TP,ODNOSNIK_X;          Wspó³rzêdna x odnosnika oznaczenia u¿ytku gruntowego
+C;## TP,ODNOSNIK_Y;          Wspó³rzêdna y odnosnika oznaczenia u¿ytku gruntowego
+C;## TP,JUSTYFIKACJA;        Justowanie oznaczenia u¿ytku gruntowego
+C;## X;
+
+C;## TD,REDAKCJA_PUNKT,RD;   Redakcja punktu za³amania granicy
+C;## TP,RODZIC_ID;           Relacja do punktu za³amania granicy
+C;## TP,SKALA;               Mianownik Skali
+C;## TP,TEKST_X;             Wspó³rzêdna x punktu za³amania granicy
+C;## TP,TEKST_Y;             Wspó³rzêdna y punktu za³amania granicy
+C;## TP,ODNOSNIK_X;          Wspó³rzêdna x odnosnika punktu za³amania granicy
+C;## TP,ODNOSNIK_Y;          Wspó³rzêdna y odnosnika punktu za³amania granicy
+C;## TP,JUSTYFIKACJA;        Justowanie punktu za³amania granicy
+C;## X;
+
+C;## TD,EW_ADRES,RD;         Adres - geometria
+C;## TP,WSP_X;               Wspó³rzêdna x adresu
+C;## TP,WSP_Y;               Wspó³rzêdna y adresu
+C;## TP,KAT;                 Kat obrotu adresu
+C;## TP,JUSTYFIKACJA;        Justowanie adresu
+C;## TP,ZMIANA_ID;           Relacja do zmiany tworzacej
+C;## TP,ZMIANA_KAS_ID;       Relacja do zmiany kasujacej
+C;## TP,G5DTW;               DaTa weryfikacji
+C;## TP,G5DTU;               Data utworzenia
+C;## WR,G5RDZE;              Relacja do dzia³ki
+C;## WR,G5RBUD;              Relacja do budynku
+C;## WR,G5RADR;              Relacja do adresu
+C;## X;

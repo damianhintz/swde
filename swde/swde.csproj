@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0F445CFD-548E-4305-923E-DF92E4BD5A60}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>egib.swde</RootNamespace>
+    <AssemblyName>egib.swde</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\egib.swde.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Pragmatic.Kontrakty">
+      <HintPath>..\Publikuj\Pragmatic.Kontrakty-v1.1.1\Pragmatic.Kontrakty.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GeometriaSwde.cs" />
+    <Compile Include="Geometria\LiniaSwde.cs" />
+    <Compile Include="Geometria\MultiLiniaSwde.cs" />
+    <Compile Include="Geometria\MultiObszarSwde.cs" />
+    <Compile Include="Geometria\ObszarSwde.cs" />
+    <Compile Include="Geometria\PunktSwde.cs" />
+    <Compile Include="Komponenty\IDokumentSwde.cs" />
+    <Compile Include="Komponenty\AtrybutSwde.cs" />
+    <Compile Include="Konstruktor\BudowniczySwde.cs" />
+    <Compile Include="DokumentSwde.cs" />
+    <Compile Include="Komponenty\DokumentBase.cs" />
+    <Compile Include="Komponenty\IKomponent.cs" />
+    <Compile Include="Komponenty\KomentarzSwde.cs" />
+    <Compile Include="Komponenty\MetadaneSwde.cs" />
+    <Compile Include="Komponenty\RekordObszarSwde.cs" />
+    <Compile Include="Komponenty\PozycjaIdrSwde.cs" />
+    <Compile Include="Komponenty\PozycjaIdSwde.cs" />
+    <Compile Include="Komponenty\ReferencjaSwde.cs" />
+    <Compile Include="Komponenty\WiazanieIdrSwde.cs" />
+    <Compile Include="Komponenty\WiazanieIdSwde.cs" />
+    <Compile Include="ObiektId.cs" />
+    <Compile Include="ObiektSwde.cs" />
+    <Compile Include="LoggerSwde.cs" />
+    <Compile Include="Rekordy\DefinicjaTypuSwde.cs" />
+    <Compile Include="Komponenty\KomponentBase.cs" />
+    <Compile Include="Komponenty\KonturSwde.cs" />
+    <Compile Include="Konstruktor\ParseSwdeException.cs" />
+    <Compile Include="Komponenty\PozycjaSwde.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Komponenty\RekordLiniaSwde.cs" />
+    <Compile Include="Komponenty\WezelKoncowySwde.cs" />
+    <Compile Include="Rekordy\PrzynaleznoscObiektu.cs" />
+    <Compile Include="Rekordy\RekordId.cs" />
+    <Compile Include="Rekordy\RekordLiniowySwde.cs" />
+    <Compile Include="Rekordy\RekordObszarowySwde.cs" />
+    <Compile Include="Rekordy\RekordOpisowySwde.cs" />
+    <Compile Include="Rekordy\RekordPunktowySwde.cs" />
+    <Compile Include="Rekordy\RekordSwdeBase.cs" />
+    <Compile Include="RekordSwdeG5.cs" />
+    <Compile Include="Rekordy\RekordZlozonySwde.cs" />
+    <Compile Include="Rekordy\WersjaObiektu.cs" />
+    <Compile Include="Sekcje\IndeksRekordow.cs" />
+    <Compile Include="Sekcje\IndeksTabel.cs" />
+    <Compile Include="Sekcje\KolekcjaWersji.cs" />
+    <Compile Include="Sekcje\SekcjaAtrybutowSwde.cs" />
+    <Compile Include="Sekcje\SekcjaMetadanychSwde.cs" />
+    <Compile Include="Sekcje\SekcjaObiektowSwde.cs" />
+    <Compile Include="Sekcje\SekcjaSwdeBase.cs" />
+    <Compile Include="Konstruktor\SwdeReader.cs" />
+    <Compile Include="Konstruktor\FabrykaKomponentow.cs" />
+    <Compile Include="Komponenty\TerminatorSwde.cs" />
+    <Compile Include="Komponenty\WiazanieSwdeBase.cs" />
+    <Compile Include="KontrolerKontekstu.cs" />
+    <Compile Include="Sekcje\SekcjaTypowSwde.cs" />
+    <Compile Include="Sekcje\TabelaSwde.cs" />
+    <Compile Include="DokumentReader.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Czytaj to.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SWDE.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="G5KLU.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="SWDE.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

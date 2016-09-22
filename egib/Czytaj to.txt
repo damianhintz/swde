@@ -1,0 +1,36 @@
+﻿egib.dll v1.1.1 - Podstawowe klasy ewidencji gruntów i budynków
+Copyright (c) 2013-2015 OPGK Olsztyn. Wszelkie prawa zastrzeżone.
+Data publikacji: 16 września 2015
+
+Nowe funkcje:
+
+Poprawki:
+
+Zawiera także poprawione literówki, aktualizację dokumentacji oraz trywialne oczyszczanie kodu.
+
+** Zmiany (historia)
+
+Do zrobienia
+- odzwierciedlenie modelu gml z nowego rozporządzenia
+
+2015-09-16 v1.1.1
+* aktualizacja: aktualizacja przestrzeni nazw
+
+2014-02-18 do v1.1
+* nowa funkcja: EwopisDotychczasowe: eksport działek dotychczasowych z rozliczenia
+
+2014-02-17 do v1.0.4
+* poprawka: rozliczenie do ewopisu eksportuje teraz tylko działki zmienione
+
+2014-02-17 do v1.0.3
+* poprawka: IdentyfikatorDzialki: uwzględnienie numeru arkusza w numerze działki
+
+2014-02-11 do v1.0.2
+* poprawka: DzialkaEwidencyjna: do metra, czy do ara?
+* poprawka: Powierzchnia: nowe funkcje zapisu do metra lub do ara
+
+2014-02-10 do v1.0.1
+* poprawka: identyfikator jednostki rejestrowej zaczyna się od G, B lub L
+
+2014-02-01 do v1.0
+* aktualizacja: zmiana nazwy projektu na egib

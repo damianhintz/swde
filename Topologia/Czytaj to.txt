@@ -1,0 +1,20 @@
+﻿egib.TopologiaKonturuów v1.0.1 - Kontrola topologiczna konturów klasyfikacyjnych z SWDE (G5KKL)
+Data publikacji: 
+
+Nowe funkcje:
+
+Poprawki:
+
+Zawiera także poprawione literówki, aktualizację dokumentacji oraz trywialne oczyszczanie kodu.
+
+** Zmiany (historia)
+Do zrobienia
+
+2014-11-21 v1.0.1
+* side location conflict
+
+2014-01-16 v1.0
+* nieprawidłowa geometria
+* pusta geometria
+* przecięcie geometrii
+* nachodzenie podobnych geometrii

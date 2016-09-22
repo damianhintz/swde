@@ -1,0 +1,13 @@
+﻿egib.PomiarLubWektoryzacja v1.0 - Wykaz rodzaju działek (pomiar lub wektoryzacja)
+Data publikacji: 19 stycznia 2015
+
+Nowe funkcje:
+
+** Zmiany (historia)
+Do zrobienia
+
+2015-01-19 v1.0
+* określenie typu działki: 
+ + z pomiaru, jeżeli ZRD równe 1 lub 5 i BPP równe 1 (wcześniej było tylko ZRD)
+ + inaczej z wektoryzacji
+ + prawdopodobnie z wektoryzacji, jeżeli działka oparta jest na punktach bez atrybutów
