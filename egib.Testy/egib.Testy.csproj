@@ -37,7 +37,7 @@
   <ItemGroup>
     <Reference Include="Pragmatic.Kontrakty, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Publikuj\Pragmatic.Kontrakty\Pragmatic.Kontrakty.dll</HintPath>
+      <HintPath>..\Publikuj\Pragmatic.Kontrakty-v1.1.1\Pragmatic.Kontrakty.dll</HintPath>
     </Reference>
     <Reference Include="System" />
   </ItemGroup>

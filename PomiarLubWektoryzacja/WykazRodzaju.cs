@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.IO;
@@ -44,8 +43,8 @@ namespace PomiarLubWektoryzacja
             bool nieznany = _rodzaj.nieznany(dzialka);
             bool wektoryzacja = _rodzaj.niepomierzona(dzialka);
             bool pomierzona = _rodzaj.pomierzona(dzialka);
-            var operaty = from pkt in dzialka.punkty() 
-                          select "[" + 
+            var operaty = from pkt in dzialka.punkty()
+                          select "[" +
                           pkt.zrodloDanych() + ", " +
                           pkt.bladPolozenia() + "]";
             string joinOperaty = string.Join(" ", operaty);

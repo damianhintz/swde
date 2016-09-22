@@ -34,7 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Pragmatic.Kontrakty">
-      <HintPath>..\Publikuj\egib.swde\Pragmatic.Kontrakty.dll</HintPath>
+      <HintPath>..\Publikuj\Pragmatic.Kontrakty-v1.1.1\Pragmatic.Kontrakty.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

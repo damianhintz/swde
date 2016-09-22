@@ -1,7 +1,5 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Pragmatic.Kontrakty;
-using egib;
 
 namespace egib.Testy
 {
